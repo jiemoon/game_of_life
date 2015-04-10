@@ -120,6 +120,6 @@ init_grid = [[ 0, 1, 0], [ 0, 1, 0], [ 1, 1, 0]]
 game = Game.new init_grid
 
 10.times do |i|
-	# sleep(1)
+	sleep 1
 	game.play
 end
